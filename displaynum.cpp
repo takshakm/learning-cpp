@@ -1,10 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int fav_num;
-    cout <<"Enter your favoruit number between 1 and 100: ";
-    cin >> fav_num;
-    cout <<"Amazing that's my favoruit number too!" <<std::endl;
-    cout <<"No really, "<< fav_num<< " is my favoruit number!";
+    int num1;
+    double num2;
+    cout<<"enter a integer";
+    cin>>num1;
+    cout<<"enter a double";
+    cin>>num2;
+    cout<<"the integer is " <<num1<< " the double is "<<num2;
     return 0;    
 }
