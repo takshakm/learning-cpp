@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+// the program will calculate the area of a room in sq
 int main(){
     cout<<"enter the width of room ";
     int room_width{0};
