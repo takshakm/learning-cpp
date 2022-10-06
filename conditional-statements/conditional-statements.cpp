@@ -29,7 +29,19 @@ int main(){
         cout<<num1<<" is equal to "<<num2;
     }
 
-     
+    //check if a char is lowercase, uppercase or numeric
+    char a;
+    cout<<"enter a character "<<endl;
+    cin>>a;
+    if(isupper(a)){
+        cout<<"upper"<<endl;
+    }
+    else if(islower(a)){
+        cout<<"lower"<<endl;
+    }
+    else{
+        cout<<"numeric";
+    }
     return 0;
 
 }
