@@ -39,15 +39,31 @@ int main(){
         ++j;
     }
     cout<<fact<<endl;
+
+    //sum of all even numbers till n
+    int num2,sum1,k;
+    sum1=0;
+    k=2;
+    cout<<"enter a number ";
+    cin>>num2;
+    cout<<endl;
+    while(k<=num2){
+        sum1=sum1+k;
+        k=k+2;
+    }
+    cout<<sum1<<endl;
     
     return 0;
 }
+
 /*
-read num
-declare num, fact, j
-let j=1
-let fact=1
-while j<=num
-++j
-fact=fact*j
+ask if user wantes temp in farenhight or celcius
+if f
+enter in celcius
+f=c+32
+print f
+if c
+enter in farenhight 
+c=f-32
+print c
 */

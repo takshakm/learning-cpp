@@ -42,6 +42,7 @@ int main(){
     else{
         cout<<"numeric";
     }
+    
     return 0;
 
 }
