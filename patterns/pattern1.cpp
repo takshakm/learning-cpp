@@ -1,15 +1,20 @@
+ /*simple program to print num as per the input 
+    111
+    222
+    333
+    */
 #include<iostream>
 using namespace std;
 int main(){
-    int n,i,j;
-    i=1;
-    cout<<"enter the number of lines ";
+    int n;
+    cout<<"enter a number ";
     cin>>n;
+    int i=1;
     while(i<=n){
-        j=1;
+        int j=1;
         while(j<=n){
             cout<<i;
-            j=j+1;
+            ++j;
         }
         cout<<endl;
         ++i;
