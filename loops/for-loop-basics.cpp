@@ -4,15 +4,10 @@ int main(){
     int n;
     cout<<"enter a number ";
     cin>>n;
-    int i=1;
-    for(;  ;){
-        if(i<=n){
-        cout<<i<<endl;
-        i++;
-    }
-    else{
-        break;
-    }
+    int a=0;
+    for(int i=1; i<=n; i++){
+        a=a+i;
+        cout<<a<<endl;
     }
     return 0;
 }
