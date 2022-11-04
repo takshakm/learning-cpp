@@ -35,5 +35,4 @@ int main(){
     cout<<"at index 5 "<<test_scores[5]<<endl;
     cout<<"at index 6 "<<test_scores[6]<<endl;
     cout<<"at index 7 "<<test_scores[7]<<endl;
-
 }
