@@ -34,4 +34,4 @@ int main(){
     int reversedarr=printarray(arr,6);
     cout<<endl;
     int reversedbrr=printarray(brr,5);
-}
+}   
